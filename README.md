@@ -1,24 +1,5 @@
-# complain_vuecli_sol
+# 가져오는 순서
 
-## Project setup
-```
-npm install
-```
+npx degit https://github.com/shch989/vue3-myblogpage.git
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+npm i
