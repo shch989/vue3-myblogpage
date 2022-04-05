@@ -6,7 +6,7 @@
 
         <div class="product-display">
           <div class="product-container">
-            <div class="product-image">-->
+            <div class="product-image">
               <img :src="require(`../assets/img/${picture}.jpg`)">
             </div>
 
