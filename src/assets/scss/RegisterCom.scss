@@ -1,0 +1,60 @@
+$border: 1px solid;
+
+#signup {
+	background:#fff;
+	$border: black;
+	border-radius: 5px;
+	padding: 20px;
+	width: 500px;	
+	margin:200px auto 100px;
+  fieldset {
+    $border: #ccc;
+    margin-bottom: 30px;
+  }
+  legend {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left:5px;
+    padding-bottom: 10px;	
+  }
+  ul li {
+    line-height: 30px;
+    list-style: none;
+    padding: 5px 10px;
+    margin-bottom: 2px;
+  }
+  button {	
+    $border: black;
+    border-radius: 20px;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin: auto;
+    padding: 7px 25px;
+  }
+  label {
+    float: left;
+    font-size: 13px;
+    width: 110px;
+  }
+  input {
+    &:not([type=radio]) {
+      $border: #ccc;
+      border-radius: 3px;
+      font-size: 13px;
+      padding: 5px;
+      width: 200px;
+    }
+    &[required] {
+      border: 1px solid red;
+    }	
+  }
+  fieldset:last-of-type {
+    border:none;
+    margin-bottom: 0;
+  }
+  #infoId, #infoId2 {
+    padding: 5px;
+    width: 85px;
+  }
+}  

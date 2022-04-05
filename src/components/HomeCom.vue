@@ -107,56 +107,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  #content { 
-    overflow: hidden; 
-    margin-top: 110px;
-  }
-
-  #main {
-      &-section {
-          float: left;
-          width: 710px;
-      }
-      &-aside {
-          float: right;
-          width: 200px;
-      }
-  }
-  a { 
-    text-decoration: none;
-    font-size: 20px;
-    color: darkgray; 
-  }
-  .article-header {
-    margin: 20px 0 10px 0;
-    &-font {
-      font-size: 30px;
-      font-weight: 700;
-    }
-  }
-  table {
-    border-collapse: collapse;
-    margin:10px 20px;
-    thead {
-      tr:first-child {
-        background-color: lightblue;
-      }
-    }
-    th {
-      text-align: center;
-      border: 1px solid black;
-    }
-    td {
-      border: 1px solid black;
-      padding: 8px;
-    }
-    tr {
-      border: 1px solid black;
-      padding: 8px;
-      &:nth-child(2n-1) {
-        background-color: lightgray;
-      }
-    }
-}
+ @import "../assets/scss/HomeCom.scss";
 
 </style>

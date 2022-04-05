@@ -27,9 +27,9 @@
               <li class="outer-menu-item"
                 v-on:mouseover="isShow03= true"
                 v-on:mouseleave="isShow03= false">
-                  <span class="menu-title">그 외</span>
+                  <span class="menu-title">쇼핑</span>
                   <ul class="inner-menu" v-if="isShow03">
-                      <li class="inner-menu-item"><a href="#">기타</a></li>
+                      <li class="inner-menu-item"><router-link to="/shopping" >양말</router-link></li>
                   </ul>
               </li>
           </ul>

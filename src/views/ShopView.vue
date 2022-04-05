@@ -1,20 +1,17 @@
 <template>
   <div class="shop">
-    <ShopCom></ShopCom>
+    <ShopingCart></ShopingCart>
   </div>
 </template>
 
 <script>
-import ShopCom from "@/components/ShopCom.vue"
+// @ is an alias to /src
+import ShopingCart from "@/components/ShopingCom.vue"
 
 export default {
   name: 'ShopView',
   components: {
-    ShopCom
+    ShopingCart
   }
 }
 </script>
-
-<style>
-
-</style>

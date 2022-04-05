@@ -176,31 +176,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.article-title {
-  font-size: 30px;
-}
-table {
-    border-collapse: collapse;
-    margin:0px 20px;
-}
-th {
-    text-align: center;
-    border: 1px solid black;
-}
-tr, td {
-    border: 1px solid black;
-    padding: 8px;
-}
-tr {
-  &:nth-child(2n) {
-    background-color: white;
-  }
-  &:nth-child(2n+1) {
-    background-color: lightgray;
-  }
-}
-
-#content {
-    margin-top: 150px;
-} 
+ @import "../assets/scss/ComplainView.scss";
 </style>
